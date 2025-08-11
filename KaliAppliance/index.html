@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kali Appliance - Certified Appliance Repair Experts in Metro Vancouver</title>
+<meta name="description" content="Certified appliance repair technicians serving Richmond, Surrey & Metro Vancouver. Fast, reliable solutions for all your appliance problems.">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9fa;
+        color: #333;
+        line-height: 1.6;
+    }
+    header {
+        background-color: #ff3801;
+        color: white;
+        text-align: center;
+        padding: 2rem 1rem;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+    header h1 {
+        font-size: 2.5rem;
+        margin: 0;
+    }
+    header p {
+        font-size: 1.2rem;
+        margin: 0.5rem 0 0;
+    }
+    .highlight {
+        background-color: yellow;
+        padding: 2px 5px;
+        border-radius: 3px;
+        font-weight: bold;
+    }
+    .certified-badge {
+        display: inline-block;
+        background-color: #4CAF50;
+        color: white;
+        padding: 5px 10px;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        margin: 0 5px;
+        vertical-align: middle;
+    }
+    .slideshow {
+        position: relative;
+        max-width: 900px;
+        height: 400px;
+        margin: 2rem auto;
+        overflow: hidden;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    }
+    .slides {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .slides img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 550px;
+        object-fit: cover;
+        opacity: 0;
+        animation: fade 8s infinite;
+    }
+    .slides img:nth-child(1) { animation-delay: 0s; }
+    .slides img:nth-child(2) { animation-delay: 4s; }
+
+    @keyframes fade {
+        0% { opacity: 0; }
+        5% { opacity: 1; }
+        45% { opacity: 1; }
+        50% { opacity: 0; }
+        100% { opacity: 0; }
+    }
+
+    /* Card style */
+    .card {
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        padding: 1.5rem;
+        margin: 2rem auto;
+        max-width: 1000px;
+    }
+
+    .gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 1rem;
+    }
+    .gallery img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 8px;
+        border: 2px solid #ff3801;
+    }
+    section h2 {
+        color: #ff3801;
+        margin-bottom: 0.5rem;
+        font-size: 1.8rem;
+    }
+    footer {
+        background-color: #ff3801;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+    .contact-links a {
+        display: inline-block;
+        margin: 0.5rem;
+        padding: 0.5rem 1rem;
+        border: 2px solid #ff3801;
+        background-color: #ff3801;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+        transition: background 0.3s, color 0.3s;
+    }
+    .contact-links a:hover {
+        background-color: white;
+        color: #ff3801;
+    }
+    .service-area {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 2rem;
+    }
+    .service-area-map {
+        width: 100%;
+        height: 300px;
+        border-radius: 8px;
+        border: 2px solid #ff3801;
+    }
+    .service-highlights {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin: 1rem 0;
+    }
+    .service-highlight {
+        flex: 1;
+        min-width: 200px;
+        background: #f9f9f9;
+        padding: 1rem;
+        border-left: 4px solid #ff3801;
+        border-radius: 4px;
+    }
+    .service-highlight h3 {
+        margin-top: 0;
+        color: #ff3801;
+    }
+    .contact-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .contact-info {
+        flex: 1;
+        min-width: 300px;
+    }
+    .map-container {
+        flex: 1;
+        min-width: 300px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Kali Appliance</h1>
+    <p>Appliance Repair Experts and Reliable Handyman Serving Metro Vancouver</p>
+    <p><span class="certified-badge">Certified Technicians</span></p>
+</header>
+
+<div class="slideshow">
+    <div class="slides">
+        <img src="IMG_6182.jpeg" alt="Certified Technician at Work">
+        <img src="IMG_1234.png" alt="Appliance Repair Service in Metro Vancouver">
+    </div>
+</div>
+
+<div class="card">
+    <h2>Gallery</h2>
+    <div class="gallery">
+        <img src="IMG_6139.jpeg" alt="Appliance Repair in Richmond">
+        <img src="IMG_6142.jpeg" alt="Professional Service in Surrey">
+        <img src="IMG_6151.jpeg" alt="Metro Vancouver Appliance Expert">
+        <img src="IMG_6155.jpeg" alt="Certified Technician at Work">
+        <img src="IMG_6161.jpeg" alt="Quality Appliance Repair">
+        <img src="IMG_6168.jpeg" alt="Same-Day Service in Metro Vancouver">
+        <img src="IMG_6173.jpeg" alt="Reliable Repair Solutions">
+        <img src="IMG_6179.jpeg" alt="Expert Appliance Service">
+        <img src="IMG_6194.jpeg" alt="Richmond Area Specialist">
+        <img src="IMG_6196.jpeg" alt="Surrey Appliance Repair">
+        <img src="IMG_6208.jpeg" alt="Certified Metro Vancouver Technician">
+        <img src="IMG_6221.JPG" alt="Professional Handyman Services">
+    </div>
+</div>
+
+<div class="card">
+    <section id="about">
+        <h2>About Us</h2>
+        <p>At Kali Appliance, we're your trusted <span class="highlight">certified appliance repair specialists</span> serving <span class="highlight">Richmond, Surrey, and the entire Metro Vancouver area</span>. Our team of licensed technicians brings years of experience, ensuring your appliances get the expert care they deserve.</p>
+        
+        <p>Is your refrigerator not cooling? Dishwasher leaking? Dryer taking too long? We diagnose and fix appliance problems quickly and affordably, saving you the cost of premature replacement.</p>
+        
+        <div class="service-highlights">
+            <div class="service-highlight">
+                <h3>Same-Day Service</h3>
+                <p>Quick response times because we know appliance emergencies can't wait</p>
+            </div>
+            <div class="service-highlight">
+                <h3>Certified Expertise</h3>
+                <p>With proper certification and training to ensure professional handling to your beloved appliances</p>
+            </div>
+            <div class="service-highlight">
+                <h3>Local & Reliable</h3>
+                <p>Proudly serving the Metro Vancouver community with honest, dependable service</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<div class="card">
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <p>Need certified appliance repair in the Metro Vancouver area? Contact us today for fast, professional service:</p>
+                <div class="contact-links">
+                    <a href="tel:+16049976482">📞 (604) 997-6482</a>
+                    <a href="tel:+16047278048">📞 (604) 727-8048</a>
+                    <a href="mailto:kali@kaliappliance.com">📧 kali@kaliappliance.com</a>
+                </div>
+                <p><strong>Service Hours:</strong><br>
+                Monday - Saturday: 8:00 AM - 8:00 PM<br>
+                Emergency service available</p>
+            </div>
+            <div class="map-container">
+                <h3>Our Service Coverage</h3>
+                <iframe 
+    width="100%" 
+    height="450" 
+    frameborder="0" 
+    style="border:0" 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d417927.800349552!2d-123.20398994999999!3d49.12085045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54867077b7a9d3e1%3A0x4a5a1a5a1a5a1a5a!2sMetro%20Vancouver%2C%20BC!5e0!3m2!1sen!2sca!4v1620000000000!5m2!1sen!2sca&markers=color:red%7C49.166592,-123.136639%7Ccolor:red%7C49.1044,-122.801" 
+    allowfullscreen="" 
+    loading="lazy">
+</iframe>
+                <p>Pinpointing our primary service areas in <span class="highlight">Richmond and Surrey</span>, with coverage throughout Metro Vancouver.</p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Kali Appliance. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
